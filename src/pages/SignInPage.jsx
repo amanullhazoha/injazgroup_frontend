@@ -10,7 +10,7 @@ const SignInPage = () => {
             </div>
 
             <div className="max-md:my-auto md:pt-20 px-5 sm:px-10 lg:px-20 col-span-1 md:col-span-4 lg:col-span-3">
-                <p className="text-center text-2xl font-semibold text-[#111928] mb-10">Log In</p>
+                <p className="text-center text-2xl font-semibold text-[#111928] mb-10">Log in</p>
 
                 <div className="flex flex-col gap-3">
                     <SocialLogInButton icon={<Google_icon />} text="Continue With Google" link={`${process.env.REACT_APP_BACKEND_BASE_URL}/api/v1/public/google-login`} />
