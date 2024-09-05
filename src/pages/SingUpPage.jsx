@@ -11,7 +11,7 @@ const SignUpPage = () => {
                 <img src={login_bg} alt="login image" className="w-full h-full object-cover" />
             </div>
 
-            <div className="max-md:my-auto md:pt-28 px-5 sm:px-10 lg:px-14 col-span-1 md:col-span-4 lg:col-span-3">
+            <div className="my-auto px-5 sm:px-10 lg:px-14 col-span-1 md:col-span-4 lg:col-span-3">
                 <img src={rival_logo} alt="logo" className="max-md:mt-2.5 mb-10 w-[150px] h-[60px] mx-auto" />
 
                 <p className="text-center text-2xl font-semibold text-[#111928] mb-10">Create an account</p>
