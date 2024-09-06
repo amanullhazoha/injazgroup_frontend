@@ -12,14 +12,16 @@ const SignUpPage = () => {
             </div>
 
             <div className="my-auto px-5 sm:px-10 lg:px-14 col-span-1 md:col-span-4 lg:col-span-3">
-                <img src={rival_logo} alt="logo" className="max-md:mt-2.5 mb-10 w-[150px] h-[60px] mx-auto" />
+                <Link to="/">
+                    <img src={rival_logo} alt="logo" className="max-md:mt-2.5 mb-10 w-[150px] h-[60px] mx-auto" />
+                </Link>
 
                 <p className="text-center text-2xl font-semibold text-[#111928] mb-10">Create an account</p>
 
                 <div className="flex flex-col gap-3 mb-10">
                     <SocialLogInButton icon={<Google_icon />} text="Continue With Google" link={`${process.env.REACT_APP_BACKEND_BASE_URL}/api/v1/public/google-login`} />
                     <SocialLogInButton icon={<Facebook_icon />} text="Continue With Facebook" link={`${process.env.REACT_APP_BACKEND_BASE_URL}/api/v1/public/facebook-login`} />
-                    <SocialLogInButton icon={<Apple_icon />} text="Continue With Apple" link="/sign-in" />
+                    <SocialLogInButton icon={<Apple_icon />} text="Continue With Apple" link="/project/2/join" />
                 </div>
 
                 <div className="mb-10">
@@ -27,7 +29,7 @@ const SignUpPage = () => {
                     <label className="text-[#6B7280] text-sm font-normal">I do not wish to receive news and promotions from injazgroup Company by email.</label>
                 </div>
 
-                <p className="text-center text-base font-normal text-[#374151]">Already have an account? <Link to="/sign-in" className="font-semibold text-[#1F2A59]">Log in</Link></p>
+                <p className="text-center text-base font-normal text-[#374151]">Already have an account? <Link to="/project/2/log-in" className="font-semibold text-[#1F2A59]">Log in</Link></p>
             </div>
         </div>
     );
