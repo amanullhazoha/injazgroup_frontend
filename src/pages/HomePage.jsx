@@ -1,8 +1,5 @@
 import { Link } from "react-router-dom";
-import login_bg from "../assets/images/login_bg.png";
 import rival_logo from "../assets/images/rival_logo.png";
-import SocialLogInButton from "../components/button/SocailLogInButton";
-import { Apple_icon, Facebook_icon, Google_icon } from "../assets/icons/socailIcons";
 
 const HomePage = () => {
     return (
