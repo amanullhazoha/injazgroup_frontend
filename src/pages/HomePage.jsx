@@ -10,7 +10,12 @@ const HomePage = () => {
 
             <p className="text-center text-2xl font-semibold text-[#111928] mb-5">We are coming soon</p>
 
-            <Link to="/project/2/join" className="font-semibold text-white bg-black px-5 py-1.5 rounded-md hover:bg-slate-600">Join Us</Link>
+            <Link 
+                to="/project/2/joinus" 
+                className="font-semibold text-white bg-black px-5 py-1.5 rounded-md hover:bg-slate-600"
+            >
+                Join Us
+            </Link>
         </div>
     );
 }

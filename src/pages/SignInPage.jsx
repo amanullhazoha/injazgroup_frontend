@@ -16,10 +16,10 @@ const SignInPage = () => {
                 <div className="flex flex-col gap-3">
                     <SocialLogInButton icon={<Google_icon />} text="Continue With Google" link={`${process.env.REACT_APP_BACKEND_BASE_URL}/api/v1/public/google-login`} />
                     <SocialLogInButton icon={<Facebook_icon />} text="Continue With Facebook" link={`${process.env.REACT_APP_BACKEND_BASE_URL}/api/v1/public/facebook-login`} />
-                    <SocialLogInButton icon={<Apple_icon />} text="Continue With Apple" link="/project/2/join" />
+                    <SocialLogInButton icon={<Apple_icon />} text="Continue With Apple" link="/project/2/joinus" />
                 </div>
 
-                <p className="text-center text-base font-normal text-[#374151] mt-10">Don’t you have an account? <Link to="/project/2/join" className="font-semibold text-[#1F2A59]">Sign up</Link></p>
+                <p className="text-center text-base font-normal text-[#374151] mt-10">Don’t you have an account? <Link to="/project/2/joinus" className="font-semibold text-[#1F2A59]">Sign up</Link></p>
             </div>
         </div>
     );

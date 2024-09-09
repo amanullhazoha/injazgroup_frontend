@@ -13,7 +13,7 @@ const router = createBrowserRouter([
         element: <SignInPage />,
     },
     {
-        path: "/project/2/join",
+        path: "/project/2/joinus",
         element: <SignUpPage />,
     },
 ])
