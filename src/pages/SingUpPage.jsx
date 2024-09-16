@@ -26,7 +26,7 @@ const SignUpPage = () => {
 
                 <div className="mb-10">
                     <input type="checkbox" className="mr-2 accent-slate-700 w-3.5 h-3.5" />
-                    <label className="text-[#6B7280] text-sm font-normal">I do not wish to receive news and promotions from injazgroup Company by email.</label>
+                    <label className="text-[#6B7280] text-sm font-normal">I do not wish to receive news and promotions from Rival Global Company by email.</label>
                 </div>
 
                 <p className="text-center text-base font-normal text-[#374151]">Already have an account? <Link to="/project/2/log-in" className="font-semibold text-[#1F2A59]">Log in</Link></p>
